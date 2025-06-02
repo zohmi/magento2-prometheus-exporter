@@ -9,6 +9,9 @@ use Magento\Framework\Api\SearchCriteriaBuilder;
 use RunAsRoot\PrometheusExporter\Api\MetricAggregatorInterface;
 use RunAsRoot\PrometheusExporter\Service\UpdateMetricService;
 
+/**
+ * CmsBlockCountAggregator
+ */
 class CmsBlockCountAggregator implements MetricAggregatorInterface
 {
     private const METRIC_CODE = 'magento_cms_block_count_total';
